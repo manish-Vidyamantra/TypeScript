@@ -8,6 +8,18 @@ const rectangle: Rectangle = {
     width: 20
 }
 
+// extends interface
 
+interface ColorRectangle extends Rectangle {
+    color: string;
+}
+
+const colorRectangle: ColorRectangle = {
+    height: 10,
+    width: 20,
+    color: 'blue'
+}
+
+console.log(colorRectangle);
 console.log(rectangle);
 export {};
