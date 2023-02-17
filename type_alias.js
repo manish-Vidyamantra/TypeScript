@@ -6,4 +6,9 @@ exports.__esModule = true;
 var a = 10;
 var b = 20;
 var c = undefined;
-a = undefined;
+var person1 = {
+    name: "manish",
+    gender: "male",
+    fun: function fun() { console.log("hello"); }
+};
+console.log(person1);

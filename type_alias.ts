@@ -14,6 +14,19 @@ let b: varType = 20;
 let c: varType = undefined;
 
 
-a = undefined;
+type newType = { 
+    name : string,
+    gender: string,
+    fun: Function,
+}
+
+let person1: newType = {
+    name: "manish",
+    gender: "male",
+    fun: function fun() {console.log("hello")}
+    
+}
+
+console.log(person1);
 
 export {};
