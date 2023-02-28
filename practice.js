@@ -1,13 +1,16 @@
 "use strict";
 // generic function
+var _a;
 exports.__esModule = true;
-var newUser = {
-    name: 'bikash',
-    age: 20
+var person1 = {
+    // name:'bikash',
+    age: 22,
+    setName: function (val) {
+        this.name = val;
+    },
+    getName: function () {
+        return "".concat(this.name);
+    }
 };
-console.log(newUser);
-var newUser1 = {
-    name: 'roshan',
-    age: 24
-};
-console.log(newUser1);
+console.log((_a = person1.name) === null || _a === void 0 ? void 0 : _a.firstName);
+console.log("this is manish here");
